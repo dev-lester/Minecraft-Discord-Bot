@@ -6,14 +6,15 @@
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
-    "minecraft-server-util": "^3.5.2"
+    "minecraft-server-util": "^3.5.2",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "eslint": "^7.31.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC"

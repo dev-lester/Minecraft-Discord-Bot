@@ -54,10 +54,6 @@ client.on('message', message => {
 			console.error(error);
 		});
 		break;
-		
-	case 'malas':
-		message.channel.send('RAINIEL APOSTOL VILLANUEVA');
-		break;
 	}
 });
 
